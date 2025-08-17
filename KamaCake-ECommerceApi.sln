@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamaCake.Domain", "src\KamaCake.Domain\KamaCake.Domain.csproj", "{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DADA6AB1-7312-4A95-889E-0B1BA5A21EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamaCake.Application", "src\Core\KamaCake.Application\KamaCake.Application.csproj", "{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E43392D7-CF3A-4504-833A-B16B2C744A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamaCake.Persistence", "src\Infrastructure\KamaCake.Persistence\KamaCake.Persistence.csproj", "{CE2FA96A-62AD-440C-AED8-2AF350E890BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{F3E36C3F-8329-4679-BD74-DE15CCEC306F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamaCake.WebApi", "src\WebApi\KamaCake.WebApi\KamaCake.WebApi.csproj", "{DA98CF26-D07E-43C7-80AE-29D54165A94B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2FA96A-62AD-440C-AED8-2AF350E890BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2FA96A-62AD-440C-AED8-2AF350E890BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2FA96A-62AD-440C-AED8-2AF350E890BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2FA96A-62AD-440C-AED8-2AF350E890BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA98CF26-D07E-43C7-80AE-29D54165A94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA98CF26-D07E-43C7-80AE-29D54165A94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA98CF26-D07E-43C7-80AE-29D54165A94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA98CF26-D07E-43C7-80AE-29D54165A94B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD} = {DADA6AB1-7312-4A95-889E-0B1BA5A21EFD}
+		{DADA6AB1-7312-4A95-889E-0B1BA5A21EFD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254} = {DADA6AB1-7312-4A95-889E-0B1BA5A21EFD}
+		{E43392D7-CF3A-4504-833A-B16B2C744A93} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CE2FA96A-62AD-440C-AED8-2AF350E890BA} = {E43392D7-CF3A-4504-833A-B16B2C744A93}
+		{F3E36C3F-8329-4679-BD74-DE15CCEC306F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DA98CF26-D07E-43C7-80AE-29D54165A94B} = {F3E36C3F-8329-4679-BD74-DE15CCEC306F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E7B91AC-D476-47E5-86A1-F70ADA2F65FB}
+	EndGlobalSection
+EndGlobal

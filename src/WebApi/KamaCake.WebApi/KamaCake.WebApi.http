@@ -1,0 +1,6 @@
+@KamaCake.WebApi_HostAddress = http://localhost:5007
+
+GET {{KamaCake.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

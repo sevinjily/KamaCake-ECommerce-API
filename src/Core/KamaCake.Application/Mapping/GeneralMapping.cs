@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using KamaCake.Application.DTOs.CakeDTOs;
+using KamaCake.Application.DTOs.CategoryDTO;
 using KamaCake.Domain.Entities;
 
 namespace KamaCake.Application.Mapping
@@ -10,6 +11,8 @@ namespace KamaCake.Application.Mapping
         {
             CreateMap<Cake, UpdateCakeDTO>().ReverseMap();
             CreateMap<Cake, CreateCakeDTO>().ReverseMap();
+            CreateMap<Category, CreateCategoryDTO>().ReverseMap();
+
         }
     }
 }

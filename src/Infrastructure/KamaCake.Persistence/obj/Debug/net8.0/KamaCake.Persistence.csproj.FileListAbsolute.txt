@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Infrastructure\KamaCake.Persistence\obj\Debug\net8.0\KamaCake.Persistence.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Infrastructure\KamaCake.Persistence\obj\Debug\net8.0\KamaCake.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Infrastructure\KamaCake.Persistence\obj\Debug\net8.0\KamaCake.Persistence.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Infrastructure\KamaCake.Persistence\obj\Debug\net8.0\KamaCake.Persistence.AssemblyInfo.cs
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Infrastructure\KamaCake.Persistence\obj\Debug\net8.0\KamaCake.Persistence.csproj.CoreCompileInputs.cache

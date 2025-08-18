@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.AssemblyInfo.cs
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\bin\Debug\net8.0\KamaCake.Application.deps.json
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\bin\Debug\net8.0\KamaCake.Application.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\bin\Debug\net8.0\KamaCake.Application.pdb
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\bin\Debug\net8.0\KamaCake.Domain.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\bin\Debug\net8.0\KamaCake.Domain.pdb
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.7552B35D.Up2Date
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\refint\KamaCake.Application.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.pdb
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\ref\KamaCake.Application.dll

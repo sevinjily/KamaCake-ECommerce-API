@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
+    "Method": "CreateCake",
+    "RelativePath": "api/Cake",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "KamaCake.Application.DTOs.CakeDTOs.CreateCakeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

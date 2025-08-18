@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "StE18jLD0jmUEiW4NkwUDfhUsmKeK2PfFejS16Hxs0k=",
+  "Source": "KamaCake.WebApi",
+  "BasePath": "_content/KamaCake.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -18,6 +18,7 @@ namespace KamaCake.Persistence
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
 
 
+
         }
     }
 }

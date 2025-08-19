@@ -7,7 +7,7 @@ using KamaCake.Application.Wrappers.ServiceResponses;
 using KamaCake.Domain.Entities;
 using MediatR;
 
-namespace KamaCake.Application.Features.Commands.CreateCategory
+namespace KamaCake.Application.Features.Commands.CategoryCommands.CreateCategory
 {
     public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, ServiceResponse>
     {

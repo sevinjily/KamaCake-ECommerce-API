@@ -12,6 +12,8 @@ namespace KamaCake.Application.Mapping
             CreateMap<Cake, UpdateCakeDTO>().ReverseMap();
             CreateMap<Cake, CreateCakeDTO>().ReverseMap();
             CreateMap<Category, CreateCategoryDTO>().ReverseMap();
+            CreateMap<Category, UpdateCategoryDTO>().ReverseMap();
+
 
         }
     }

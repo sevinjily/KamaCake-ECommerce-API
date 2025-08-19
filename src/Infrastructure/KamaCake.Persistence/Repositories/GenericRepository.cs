@@ -43,12 +43,11 @@ namespace KamaCake.Persistence.Repositories
             return await context.Set<T>().FindAsync(id);
         }
 
-        public async Task<T> UpdateAsync(Guid id,T entity)
+        public async Task<T> UpdateAsync(T entity)
         {
-           var findItem= await context.Set<T>().FindAsync(id);
-            if (findItem == null) return null;
+           var findItem= await context.Set<T>().FindAsync(entity.Id);
+            if (findItem == null) throw new Exception("Not found"); ;
             context.Entry(findItem).CurrentValues.SetValues(entity);
-            findItem.Id = id;
             await context.SaveChangesAsync();
             return findItem;
         }

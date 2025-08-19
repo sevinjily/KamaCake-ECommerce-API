@@ -21,6 +21,7 @@ namespace KamaCake.Persistence.Context
                 }
                 else if (entry.State == EntityState.Modified)
                 {
+
                     entry.Entity.UpdateDate = DateTime.UtcNow;
                 }
             }

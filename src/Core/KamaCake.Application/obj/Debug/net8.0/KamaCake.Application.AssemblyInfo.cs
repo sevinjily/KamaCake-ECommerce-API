@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KamaCake.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff216d79ac1eb1b5be0204a5dfd24bd516b2b263")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c365d50c591db29ecf6bfc71d1cd1f629ed1aaa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("KamaCake.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KamaCake.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

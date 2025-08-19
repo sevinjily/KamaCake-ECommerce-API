@@ -1,9 +1,7 @@
-﻿using KamaCake.Application.DTOs.CakeDTOs;
-using KamaCake.Application.DTOs.CategoryDTO;
-using KamaCake.Application.Features.Commands.CreateCategory;
-using KamaCake.Application.Features.Commands.CreateProduct;
+﻿using KamaCake.Application.DTOs.CategoryDTO;
+using KamaCake.Application.Features.Commands.CategoryCommands.CreateCategory;
+using KamaCake.Application.Features.Commands.CategoryCommands.UpdateCategory;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KamaCake.WebApi.Controllers
@@ -18,13 +16,24 @@ namespace KamaCake.WebApi.Controllers
         {
             this.mediator = mediator;
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> CreateCategory([FromBody] CreateCategoryDTO model)
         {
             var command = new CreateCategoryCommand(model);
             var result = await mediator.Send(command);
             if (!result.isSuccess) return BadRequest(result.Message);
                 
+            return StatusCode((int)result.StatusCode, result.Message);
+
+        }
+        [HttpPut("[action]")]
+        public async Task<IActionResult> UpdateCategory([FromQuery] Guid id, [FromBody] UpdateCategoryDTO model)
+        {
+            var command= new UpdateCategoryCommand(id,model); 
+            var result = await mediator.Send(command);
+
+            if (!result.isSuccess) return BadRequest(result.Message);
+
             return StatusCode((int)result.StatusCode, result.Message);
 
         }

@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\kamacake.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|solutionrelative:src\\kamacake.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\validations\\categoryvalidations\\updatecategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\validations\\categoryvalidations\\updatecategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\validations\\categoryvalidations\\createcategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\validations\\categoryvalidations\\createcategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\categorycommands\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\categorycommands\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\categorycommands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\categorycommands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\categorycommands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\categorycommands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\dtos\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\dtos\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\categorycommands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\categorycommands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\repository\\igenericrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\interfaces\\repository\\igenericrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\cakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\cakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\interfaces\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,44 +79,16 @@
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\dtos\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\kamacake.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|solutionrelative:src\\kamacake.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\kamacake.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|solutionrelative:src\\kamacake.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\cakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\controllers\\cakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\cakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\cakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\interfaces\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\createcake\\createcakecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,14 +99,6 @@
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\createcake\\createcakecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\validations\\categoryvalidations\\createcategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\validations\\categoryvalidations\\createcategoryvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\dtos\\cakedtos\\createcakedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\dtos\\cakedtos\\createcakedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,20 +107,8 @@
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\validations\\cakevalidations\\createcakedtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\repository\\igenericrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\interfaces\\repository\\igenericrepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\repository\\icakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\interfaces\\repository\\icakerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -153,6 +165,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\kamacake.domain\\kamacake.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8C487ED6-0C37-4FBA-AAA3-E8802D9F79CD}|src\\KamaCake.Domain\\KamaCake.Domain.csproj|solutionrelative:src\\kamacake.domain\\kamacake.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\infrastructure\\kamacake.persistence\\migrations\\20250818182318_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2FA96A-62AD-440C-AED8-2AF350E890BA}|src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj|solutionrelative:src\\infrastructure\\kamacake.persistence\\migrations\\20250818182318_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -162,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,13 +190,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "UpdateCategoryValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\UpdateCategoryValidation.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\UpdateCategoryValidation.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\UpdateCategoryValidation.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\UpdateCategoryValidation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:56:01.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T19:01:03.1Z",
               "EditorCaption": ""
@@ -188,90 +217,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CakeController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
-              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
-              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAJAAAAAAAAAA==",
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:26:14.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:43:52.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeneralMapping.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:07:25.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:05:57.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Common\\BaseEntity.cs*",
-              "RelativeToolTip": "src\\KamaCake.Domain\\Common\\BaseEntity.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:56:17.506Z",
+              "WhenOpened": "2025-08-18T18:49:11.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywBYAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:35:08.022Z",
+              "WhenOpened": "2025-08-18T17:21:33.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:22:29.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateCategoryValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:41:36.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UpdateCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:11:24.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T18:08:44.33Z",
               "EditorCaption": ""
@@ -279,19 +295,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CakeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Title": "CreateCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:33:11.896Z",
+              "WhenOpened": "2025-08-18T18:49:25.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "UpdateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\UpdateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\UpdateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\UpdateCategoryDTO.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\UpdateCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:06:15.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:33:31.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:35:08.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:10:33.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGenericRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:28:09.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CategoryRepository.cs",
@@ -304,46 +385,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "CakeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:33:11.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICategoryRepository.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICategoryRepository.cs",
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T18:39:33.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateCategoryCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswDUAAAASAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "GeneralMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:49:25.86Z",
+              "WhenOpened": "2025-08-17T14:07:25.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateCategoryCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "CreateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:49:11.727Z",
+              "WhenOpened": "2025-08-18T18:43:52.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:05:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\KamaCake.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T15:56:17.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CakeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
+              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T14:26:14.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "CreateCakeCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommandHandler.cs",
@@ -351,25 +482,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommandHandler.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:08:13.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T17:08:13.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:33:31.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "CreateCakeCommand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommand.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommand.cs",
@@ -377,25 +494,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CreateCake\\CreateCakeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:04:07.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T17:04:07.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateCategoryValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:41:36.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CreateCakeDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CreateCakeDTO.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CreateCakeDTO.cs",
@@ -403,25 +506,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CreateCakeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T15:08:24.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T15:08:24.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T17:22:29.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 41,
               "Title": "20250818182318_Init.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs",
@@ -429,12 +518,11 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:23:18.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:23:18.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "CreateCakeDTOValidation.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\CakeValidations\\CreateCakeDTOValidation.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\CakeValidations\\CreateCakeDTOValidation.cs",
@@ -442,25 +530,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CakeValidations\\CreateCakeDTOValidation.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T16:37:24.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T16:37:24.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IGenericRepositoryAsync.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:28:09.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ICakeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICakeRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICakeRepository.cs",
@@ -468,12 +542,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICakeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:27:37.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:27:37.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\appsettings.json",
@@ -481,25 +554,11 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-18T18:11:22.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:11:22.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T17:21:33.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "KamaCake.Persistence.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj",
@@ -507,12 +566,11 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-17T11:31:54.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:31:54.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "KamaCake.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\KamaCake.Application.csproj",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\KamaCake.Application.csproj",
@@ -520,12 +578,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\KamaCake.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-17T11:26:44.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:26:44.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "ServiceResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponse.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponse.cs",
@@ -533,12 +590,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponse.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAnwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:15:40.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:15:40.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ServiceResponseWithData.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponseWithData.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponseWithData.cs",
@@ -546,12 +602,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponseWithData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:37:31.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T14:37:31.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SuccessResponseWithData.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponseWithData.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponseWithData.cs",
@@ -559,12 +614,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponseWithData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:34:40.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:34:40.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "SuccessResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponse.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponse.cs",
@@ -572,12 +626,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:09:51.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:09:51.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "ErrorResponseWithData.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponseWithData.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponseWithData.cs",
@@ -585,12 +638,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponseWithData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:38:59.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:38:59.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponse.cs",
@@ -598,12 +650,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:10:02.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:10:02.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "CakeViewDto.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CakeViewDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CakeViewDto.cs",
@@ -611,12 +662,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CakeViewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T15:12:15.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T15:12:15.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "UpdateCakeDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\UpdateCakeDTO.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\UpdateCakeDTO.cs",
@@ -624,12 +674,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\UpdateCakeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:05:50.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T14:05:50.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Cake.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\Cake.cs",
               "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Entities\\Cake.cs",
@@ -637,12 +686,11 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Cake.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:25:28.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:25:28.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\KamaCake.Domain\\Entities\\User.cs",
@@ -650,12 +698,11 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:12:50.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T17:12:50.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "KamaCake.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\KamaCake.Domain\\KamaCake.Domain.csproj",
               "RelativeDocumentMoniker": "src\\KamaCake.Domain\\KamaCake.Domain.csproj",
@@ -663,8 +710,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\KamaCake.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T15:55:39.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:55:39.737Z"
             }
           ]
         },

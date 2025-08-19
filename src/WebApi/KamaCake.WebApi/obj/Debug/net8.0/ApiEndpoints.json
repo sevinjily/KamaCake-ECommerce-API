@@ -18,7 +18,7 @@
   {
     "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
     "Method": "CreateCategory",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/Category/CreateCategory",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,6 +26,27 @@
       {
         "Name": "model",
         "Type": "KamaCake.Application.DTOs.CategoryDTO.CreateCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category/UpdateCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "KamaCake.Application.DTOs.CategoryDTO.UpdateCategoryDTO",
         "IsRequired": true
       }
     ],

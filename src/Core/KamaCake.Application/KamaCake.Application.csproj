@@ -19,8 +19,4 @@
     <ProjectReference Include="..\..\KamaCake.Domain\KamaCake.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Queries\" />
-  </ItemGroup>
-
 </Project>

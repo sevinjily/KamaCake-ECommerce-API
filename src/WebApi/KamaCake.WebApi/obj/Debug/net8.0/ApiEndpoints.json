@@ -33,6 +33,58 @@
   },
   {
     "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/DeleteCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
+    "Method": "GetAllCategoryForAdmin",
+    "RelativePath": "api/Category/GetAllCategoryForAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
+    "Method": "GetAllCategoryForUser",
+    "RelativePath": "api/Category/GetAllCategoryForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category/GetCategoryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
     "Method": "UpdateCategory",
     "RelativePath": "api/Category/UpdateCategory",
     "HttpMethod": "PUT",

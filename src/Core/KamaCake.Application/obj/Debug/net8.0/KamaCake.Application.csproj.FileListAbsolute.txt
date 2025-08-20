@@ -13,3 +13,4 @@ C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Applica
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\refint\KamaCake.Application.dll
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.pdb
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\ref\KamaCake.Application.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\Core\KamaCake.Application\obj\Debug\net8.0\KamaCake.Application.sourcelink.json

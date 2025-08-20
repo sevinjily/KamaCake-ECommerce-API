@@ -26,6 +26,9 @@ namespace KamaCake.Application.Features.Commands.CategoryCommands.UpdateCategory
         {
             ValidationResult validationResult = await validator.ValidateAsync(request.Model, cancellationToken);
             var findCategory=await repository.GetByIdAsync(request.Id);
+
+            if (findCategory == null)
+                return new ServiceResponse(false, System.Net.HttpStatusCode.NotFound, "Belə kateqoriya tapılmadı");
             if (!validationResult.IsValid)
             {
                 var errors = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
@@ -33,15 +36,11 @@ namespace KamaCake.Application.Features.Commands.CategoryCommands.UpdateCategory
                    
             }
 
-            if (findCategory == null)
-            return new ServiceResponse(false, System.Net.HttpStatusCode.NotFound, "Belə kateqoriya tapılmadı");
-
-
+            
             try
             {
-                var categoryEntity =mapper.Map<Category>(request.Model);
-                
-                await repository.UpdateAsync(request.Id,categoryEntity);
+                mapper.Map(request.Model, findCategory);
+                await repository.UpdateAsync(request.Id,findCategory);
 
 
                 return new ServiceResponse(

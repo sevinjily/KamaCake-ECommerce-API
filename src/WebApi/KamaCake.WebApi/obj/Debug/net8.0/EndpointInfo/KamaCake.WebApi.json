@@ -121,6 +121,18 @@
         }
       }
     },
+    "/api/Cake/GetAllCakes": {
+      "get": {
+        "tags": [
+          "Cake"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category/CreateCategory": {
       "post": {
         "tags": [

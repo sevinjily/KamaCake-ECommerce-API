@@ -1,6 +1,6 @@
 ﻿namespace KamaCake.Application.DTOs.CakeDTOs
 {
-    public class GetCakeByIdDTO
+    public class GetCakeDTO
     {
         public string Name { get; set; }
         public string Description { get; set; }

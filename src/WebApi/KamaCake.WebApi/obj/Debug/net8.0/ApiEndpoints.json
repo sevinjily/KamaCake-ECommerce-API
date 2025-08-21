@@ -33,6 +33,16 @@
   },
   {
     "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
+    "Method": "GetAllCakes",
+    "RelativePath": "api/Cake/GetAllCakes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
     "Method": "GetCakeById",
     "RelativePath": "api/Cake/GetCakeById",
     "HttpMethod": "GET",

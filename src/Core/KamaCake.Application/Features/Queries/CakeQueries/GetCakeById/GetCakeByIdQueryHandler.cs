@@ -6,7 +6,7 @@ using MediatR;
 
 namespace KamaCake.Application.Features.Queries.CakeQueries.GetCakeById
 {
-    public class GetCakeByIdQueryHandler : IRequestHandler<GetCakeByIdQuery, ServiceResponseWithData<GetCakeByIdDTO>>
+    public class GetCakeByIdQueryHandler : IRequestHandler<GetCakeByIdQuery, ServiceResponseWithData<GetCakeDTO>>
     {
         private readonly ICakeRepository repository;
         private readonly IMapper mapper;
@@ -16,12 +16,12 @@ namespace KamaCake.Application.Features.Queries.CakeQueries.GetCakeById
             this.repository = repository;
             this.mapper = mapper;
         }
-        public async Task<ServiceResponseWithData<GetCakeByIdDTO>> Handle(GetCakeByIdQuery request, CancellationToken cancellationToken)
+        public async Task<ServiceResponseWithData<GetCakeDTO>> Handle(GetCakeByIdQuery request, CancellationToken cancellationToken)
         {
             var findCake=await repository.GetByIdAsync(request.Id);
 
             if (findCake == null)
-                return new ServiceResponseWithData<GetCakeByIdDTO>(
+                return new ServiceResponseWithData<GetCakeDTO>(
                     value: default,
                     isSuccess: false,
                     statusCode: System.Net.HttpStatusCode.NotFound,
@@ -30,9 +30,9 @@ namespace KamaCake.Application.Features.Queries.CakeQueries.GetCakeById
 
             try
             {
-                var viewModel = mapper.Map<GetCakeByIdDTO>(findCake);
+                var viewModel = mapper.Map<GetCakeDTO>(findCake);
 
-                return new ServiceResponseWithData<GetCakeByIdDTO>(
+                return new ServiceResponseWithData<GetCakeDTO>(
                     value: viewModel,
                     isSuccess: true,
                     statusCode: System.Net.HttpStatusCode.OK
@@ -42,7 +42,7 @@ namespace KamaCake.Application.Features.Queries.CakeQueries.GetCakeById
             catch (Exception ex)
             {
                 // Əgər hər hansı bir xəta baş verərsə
-                return new ServiceResponseWithData<GetCakeByIdDTO>(
+                return new ServiceResponseWithData<GetCakeDTO>(
                     value: default,
                     isSuccess: false,
                     statusCode: System.Net.HttpStatusCode.InternalServerError

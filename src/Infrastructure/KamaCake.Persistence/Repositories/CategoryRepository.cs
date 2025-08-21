@@ -8,5 +8,5 @@ namespace KamaCake.Persistence.Repositories
     {
         public CategoryRepository(ApplicationDbContext context) : base(context) { }
 
-    }
+    }   
 }

@@ -11,10 +11,13 @@ namespace KamaCake.Application.Mapping
         {
             CreateMap<Cake, UpdateCakeDTO>().ReverseMap();
             CreateMap<Cake, CreateCakeDTO>().ReverseMap();
+            CreateMap<Cake, GetCakeByIdDTO>().ReverseMap();
+
             CreateMap<Category, CreateCategoryDTO>().ReverseMap();
             CreateMap<Category, UpdateCategoryDTO>().ReverseMap();
             CreateMap<Category,GetAllCategoryForUserDTO>().ReverseMap();
             CreateMap<Category, GetCategoryByIdDTO>().ReverseMap();
+
 
 
 

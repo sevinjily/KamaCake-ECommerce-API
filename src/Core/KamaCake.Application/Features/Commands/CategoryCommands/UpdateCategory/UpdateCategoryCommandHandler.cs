@@ -24,7 +24,7 @@ namespace KamaCake.Application.Features.Commands.CategoryCommands.UpdateCategory
 
         public async Task<ServiceResponse> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
-            ValidationResult validationResult = await validator.ValidateAsync(request.Model, cancellationToken);
+            ValidationResult validationResult = await validator.ValidateAsync(request.Model, cancellationToken);    
             var findCategory=await repository.GetByIdAsync(request.Id);
 
             if (findCategory == null)

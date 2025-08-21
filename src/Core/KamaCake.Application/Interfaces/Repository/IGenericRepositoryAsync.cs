@@ -9,6 +9,7 @@ namespace KamaCake.Application.Interfaces.Repository
         Task<T> DeleteAsync(Guid id);
         Task<List<T>> GetAllAsync();
         Task<T> GetByIdAsync(Guid id);
+        //Task<T> GetByNameAsync(string name);
     }
 
 }

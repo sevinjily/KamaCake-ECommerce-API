@@ -1,7 +1,4 @@
-﻿using AutoMapper;
-using FluentValidation;
-using KamaCake.Application.DTOs.CategoryDTO;
-using KamaCake.Application.Interfaces.Repository;
+﻿using KamaCake.Application.Interfaces.Repository;
 using KamaCake.Application.Wrappers.ServiceResponses;
 using MediatR;
 
@@ -10,12 +7,11 @@ namespace KamaCake.Application.Features.Commands.CategoryCommands.DeleteCategory
     public class DeleteCategoryCommandHandler : IRequestHandler<DeleteCategoryCommand, ServiceResponse>
     {
         private readonly ICategoryRepository repository;
-        private readonly IMapper mapper;
 
-        public DeleteCategoryCommandHandler(ICategoryRepository repository, IMapper mapper)
+        public DeleteCategoryCommandHandler(ICategoryRepository repository)
         {
             this.repository = repository;
-            this.mapper = mapper;
+            
         }
 
         public async Task<ServiceResponse> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)

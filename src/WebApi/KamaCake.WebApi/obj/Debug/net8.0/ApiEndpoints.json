@@ -16,6 +16,59 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
+    "Method": "DeleteCake",
+    "RelativePath": "api/Cake/DeleteCake",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
+    "Method": "GetCakeById",
+    "RelativePath": "api/Cake/GetCakeById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
+    "Method": "UpdateCake",
+    "RelativePath": "api/Cake/UpdateCake",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "KamaCake.Application.DTOs.CakeDTOs.UpdateCakeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
     "Method": "CreateCategory",
     "RelativePath": "api/Category/CreateCategory",

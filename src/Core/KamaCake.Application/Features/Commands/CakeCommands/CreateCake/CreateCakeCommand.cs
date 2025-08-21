@@ -2,7 +2,7 @@
 using KamaCake.Application.Wrappers.ServiceResponses;
 using MediatR;
 
-namespace KamaCake.Application.Features.Commands.CreateProduct
+namespace KamaCake.Application.Features.Commands.CakeCommands.CreateCake
 {
     public class CreateCakeCommand:IRequest<ServiceResponse>
     {

@@ -1,5 +1,8 @@
 ﻿using KamaCake.Application.DTOs.CakeDTOs;
-using KamaCake.Application.Features.Commands.CreateProduct;
+using KamaCake.Application.Features.Commands.CakeCommands.CreateCake;
+using KamaCake.Application.Features.Commands.CakeCommands.DeleteCake;
+using KamaCake.Application.Features.Commands.CakeCommands.UpdateCake;
+using KamaCake.Application.Features.Queries.CakeQueries.GetCakeById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +26,39 @@ namespace KamaCake.WebApi.Controllers
             if (!result.isSuccess) return BadRequest(result.Message);
 
            return StatusCode((int)result.StatusCode,result.Message);
+
+        }
+        [HttpPut("[action]")] 
+        public async Task<IActionResult> UpdateCake([FromQuery] Guid id,UpdateCakeDTO model)
+        {
+            var command=new UpdateCakeCommand(id,model);
+            var result=await mediator.Send(command);
+            if (!result.isSuccess)
+                return BadRequest(result.Message);
+
+            return StatusCode((int)result.StatusCode, result.Message);
+
+        }
+        [HttpDelete("[action]")]
+        public async Task<IActionResult> DeleteCake([FromQuery] Guid id)
+        {
+            var command = new DeleteCakeCommand(id);
+            var result = await mediator.Send(command);
+            if (!result.isSuccess)
+                return BadRequest(result.Message);
+
+            return StatusCode((int)result.StatusCode, result.Message);
+
+        }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetCakeById([FromQuery]Guid id)
+        {
+            var query = new GetCakeByIdQuery(id);
+            var result = await mediator.Send(query);
+            if (!result.isSuccess)
+                return BadRequest(result.Message);
+
+            return Ok(result);
 
         }
     }

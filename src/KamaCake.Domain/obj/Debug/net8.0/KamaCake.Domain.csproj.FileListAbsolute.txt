@@ -9,3 +9,5 @@ C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\D
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\Debug\net8.0\refint\KamaCake.Domain.dll
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\Debug\net8.0\KamaCake.Domain.pdb
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\Debug\net8.0\ref\KamaCake.Domain.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\Debug\net8.0\KamaCake.Domain.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\KamaCake.Domain\obj\Debug\net8.0\KamaCake.Domain.sourcelink.json

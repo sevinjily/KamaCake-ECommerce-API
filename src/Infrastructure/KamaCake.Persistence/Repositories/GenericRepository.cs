@@ -40,14 +40,7 @@ namespace KamaCake.Persistence.Repositories
         public async Task<T?> GetByIdAsync(Guid id)
         {
             return await context.Set<T>().FindAsync(id);
-        }
-
-        //public async Task<T> GetByNameAsync(string name)
-        //{
-        //    return await context.Set<T>()
-        // .FirstOrDefaultAsync(c => c.Name.ToLower() == name.ToLower());
-
-        //}
+        }   
 
         public async Task<T> UpdateAsync(Guid id,T entity)
         {

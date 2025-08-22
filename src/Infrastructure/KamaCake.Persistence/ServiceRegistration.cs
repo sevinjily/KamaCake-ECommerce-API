@@ -1,4 +1,5 @@
 ﻿using KamaCake.Application.Interfaces.Repository;
+using KamaCake.Domain.Entities;
 using KamaCake.Persistence.Context;
 using KamaCake.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,19 @@ namespace KamaCake.Persistence
 
             serviceCollection.AddTransient<ICakeRepository, CakeRepository>();
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
+            serviceCollection.AddIdentityCore<User>(opt =>
+            {
 
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 2;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireDigit = false;
+                opt.SignIn.RequireConfirmedEmail=false;
+            }
+            )
+                .AddRoles<Role>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
         }

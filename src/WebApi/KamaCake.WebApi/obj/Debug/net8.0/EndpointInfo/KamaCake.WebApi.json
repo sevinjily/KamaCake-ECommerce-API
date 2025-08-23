@@ -1,8 +1,9 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "KamaCake.WebApi",
-    "version": "1.0"
+    "title": "KamaCake API",
+    "description": "KamaCake API swagger client.",
+    "version": "v1"
   },
   "paths": {
     "/api/Cake": {
@@ -365,6 +366,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "'Bearer' yazib bosluq qoyduqdan sonra Tokeni yaza bilersiniz \r\n\r\n Meselen \"Bearer eyJskjfdkfncjefnhle",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

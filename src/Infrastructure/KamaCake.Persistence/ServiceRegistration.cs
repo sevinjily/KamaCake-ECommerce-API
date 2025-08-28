@@ -22,6 +22,9 @@ namespace KamaCake.Persistence
 
             serviceCollection.AddTransient<ICakeRepository, CakeRepository>();
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
+            serviceCollection.AddTransient<IUserRepository, UserRepository>();
+
+
             serviceCollection.AddIdentityCore<User>(opt =>
             {
 
@@ -38,6 +41,7 @@ namespace KamaCake.Persistence
 
             serviceCollection.Configure<TokenSettings>(configuration.GetSection("JWT"));
             serviceCollection.AddTransient<ITokenService, TokenService>();
+
             serviceCollection.AddAuthentication(opt =>
             {
                 opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

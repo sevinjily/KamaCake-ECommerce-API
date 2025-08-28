@@ -1,10 +1,11 @@
 ﻿using FluentValidation;
+using KamaCake.Application.DTOs.AuthDTOs;
 using KamaCake.Application.Features.Commands.AuthCommands.Register;
 
 namespace KamaCake.Application.Validations.AuthValidations
 {
 
-    public class RegisterValidation:AbstractValidator<RegisterCommand>
+    public class RegisterValidation:AbstractValidator<RegisterDTO>
     {
         public RegisterValidation()
         {

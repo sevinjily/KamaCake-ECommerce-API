@@ -19,8 +19,8 @@ namespace KamaCake.Application.Mapping
             CreateMap<Category,GetAllCategoryForUserDTO>().ReverseMap();
             CreateMap<Category, GetCategoryByIdDTO>().ReverseMap();
 
-            CreateMap<User,RegisterDTO>().ReverseMap();
-
+            CreateMap<User, RegisterDTO>();
+            
 
         }
     }

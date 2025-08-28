@@ -30,7 +30,7 @@ namespace KamaCake.Application.Validations.AuthValidations
             RuleFor(x => x.ConfirmPassword)
                 .NotEmpty()
                 .MinimumLength(6)
-                .Equal(x => x.Email)
+                .Equal(x => x.Password)
                 .WithName("Parol Təkrari");
 
         }

@@ -6,9 +6,7 @@ using KamaCake.Application.Interfaces.Repository;
 using KamaCake.Application.Wrappers.ServiceResponses;
 using KamaCake.Domain.Entities;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System.Security.Claims;
 //using Microsoft.AspNetCore.Http;
 
 namespace KamaCake.Application.Features.Commands.AuthCommands.Register
@@ -19,21 +17,17 @@ namespace KamaCake.Application.Features.Commands.AuthCommands.Register
         private readonly UserManager<User> userManager;
         private readonly RoleManager<Role> roleManager;
 
-        private readonly IHttpContextAccessor httpContextAccessors;
         private readonly IUserRepository userRepository;
         private readonly IValidator<RegisterDTO> validator;
-        private readonly Guid userId;
 
 
-        public RegisterCommandHandler(IMapper mapper,UserManager<User> userManager,RoleManager<Role> roleManager,IUserRepository userRepository, IValidator<RegisterDTO> validator, IHttpContextAccessor httpContextAccessors)
+        public RegisterCommandHandler(IMapper mapper,UserManager<User> userManager,RoleManager<Role> roleManager,IUserRepository userRepository, IValidator<RegisterDTO> validator)
         {
             this.mapper = mapper;
             this.userManager = userManager;
             this.roleManager = roleManager;
-            this.httpContextAccessors = httpContextAccessors;
             this.userRepository = userRepository;
             this.validator = validator;
-            userId = Guid.Parse(httpContextAccessors.HttpContext.User.FindFirstValue(System.Security.Claims.ClaimTypes.NameIdentifier));
         }
         public async Task<ServiceResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
@@ -48,7 +42,7 @@ namespace KamaCake.Application.Features.Commands.AuthCommands.Register
                 );
             }
 
-            var existingUser = userRepository.GetByEmailAsync(request.Model.Email);
+            var existingUser = await userRepository.GetByEmailAsync(request.Model.Email);
             if (existingUser != null)
                 return new ServiceResponse
                     (false, System.Net.HttpStatusCode.BadRequest, "Bu email ilə artıq istifadəçi mövcuddur.");
@@ -60,7 +54,7 @@ namespace KamaCake.Application.Features.Commands.AuthCommands.Register
                 user.UserName = request.Model.Email;
                 IdentityResult result = await userManager.CreateAsync(user, request.Model.Password);
                 //user.PasswordHash=PasswordHasher.HashPassword
-                if(await roleManager.RoleExistsAsync("user"))
+                if(!await roleManager.RoleExistsAsync("user"))
                 {
                     await roleManager.CreateAsync(new Role
                     {

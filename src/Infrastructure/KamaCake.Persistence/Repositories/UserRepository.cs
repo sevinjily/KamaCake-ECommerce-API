@@ -21,7 +21,7 @@ namespace KamaCake.Persistence.Repositories
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            var findItem = await context.Users.FindAsync(id);
+            var findItem = await context.Users.FindAsync(id)    ;
             if (findItem == null) return false;
 
             context.Users.Remove(findItem);

@@ -6,6 +6,7 @@ using KamaCake.Application.Features.Queries.CategoryQueries.GetAllCategory.GetAl
 using KamaCake.Application.Features.Queries.CategoryQueries.GetAllCategory.GetAllCategoryForUser;
 using KamaCake.Application.Features.Queries.CategoryQueries.GetCategoryById;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KamaCake.WebApi.Controllers
@@ -63,6 +64,8 @@ namespace KamaCake.WebApi.Controllers
 
         }
         [HttpGet("[action]")]
+        [Authorize]
+        
         public async Task<IActionResult> GetAllCategoryForAdmin()
         {
             var query = new GetAllCategoryForAdminQuery();

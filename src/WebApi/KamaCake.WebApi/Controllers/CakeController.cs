@@ -5,6 +5,7 @@ using KamaCake.Application.Features.Commands.CakeCommands.UpdateCake;
 using KamaCake.Application.Features.Queries.CakeQueries.GetAllCake;
 using KamaCake.Application.Features.Queries.CakeQueries.GetCakeById;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KamaCake.WebApi.Controllers
@@ -63,6 +64,7 @@ namespace KamaCake.WebApi.Controllers
 
         }
         [HttpGet("[action]")]
+        [Authorize]
         public async Task<IActionResult> GetAllCakes()
         {
             var query = new GetAllCakeQuery();

@@ -1,4 +1,5 @@
 ﻿using KamaCake.Application.DTOs.AuthDTOs;
+using KamaCake.Application.Features.Commands.AuthCommands.Login;
 using KamaCake.Application.Features.Commands.AuthCommands.Register;
 using KamaCake.Application.Features.Commands.CakeCommands.CreateCake;
 using KamaCake.Application.Features.Commands.CakeCommands.DeleteCake;
@@ -25,6 +26,15 @@ namespace KamaCake.WebApi.Controllers
             if (!result.isSuccess) return BadRequest(result.Message);
 
             return StatusCode((int)result.StatusCode, result.Message);
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> LoginAsync(LoginCommandRequest model)
+        {
+            var response = await mediator.Send(model);
+            if (!response.isSuccess) return BadRequest(response.Message);
+
+            return StatusCode((int)response.StatusCode, response);
 
         }
     }

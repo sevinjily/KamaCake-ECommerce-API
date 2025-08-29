@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "KamaCake.WebApi.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "KamaCake.Application.Features.Commands.AuthCommands.Login.LoginCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.AuthController",
     "Method": "RegisterAsync",
     "RelativePath": "api/Auth/Register",
     "HttpMethod": "POST",

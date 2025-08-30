@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\validations\\authvalidations\\refreshtokenvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\validations\\authvalidations\\registervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\validations\\authvalidations\\registervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\refreshtoken\\refreshtokencommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\features\\commands\\authcommands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|solutionrelative:src\\core\\kamacake.application\\features\\commands\\authcommands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\webapi\\kamacake.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA98CF26-D07E-43C7-80AE-29D54165A94B}|src\\WebApi\\KamaCake.WebApi\\KamaCake.WebApi.csproj|solutionrelative:src\\webapi\\kamacake.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C3C27A-D8AA-46F4-8D35-C5F8A5F17254}|src\\Core\\KamaCake.Application\\KamaCake.Application.csproj|c:\\users\\asus\\desktop\\.net-onion\\kamacake-ecommerceapi\\src\\core\\kamacake.application\\interfaces\\tokens\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -367,32 +367,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RefreshTokenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:30:56.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RefreshTokenValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:29:04.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "RefreshTokenCommandRequest.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandRequest.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandRequest.cs",
@@ -405,7 +379,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshTokenCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwC4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T17:12:09.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:44:04.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefreshTokenCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T17:13:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:28:51.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginValidation.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\LoginValidation.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\LoginValidation.cs",
@@ -413,38 +439,35 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\LoginValidation.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T11:22:57.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RefreshTokenCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:12:09.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RefreshTokenCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:13:33.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T11:22:57.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RefreshTokenValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T17:29:04.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefreshTokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T17:30:56.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RegisterValidation.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RegisterValidation.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RegisterValidation.cs",
@@ -452,25 +475,11 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RegisterValidation.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:44:36.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:44:36.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwDQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:44:04.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\LoginDTO.cs",
@@ -482,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LoginCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Login\\LoginCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Login\\LoginCommandHandler.cs",
@@ -494,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CakeController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
@@ -506,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenService.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenService.cs",
@@ -518,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TokenSettings.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenSettings.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenSettings.cs",
@@ -530,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\appsettings.json",
@@ -538,12 +547,11 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-18T18:11:22.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:11:22.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
@@ -551,20 +559,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAowEQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:01:03.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:28:51.324Z"
+              "WhenOpened": "2025-08-18T19:01:03.1Z"
             },
             {
               "$type": "Document",

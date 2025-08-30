@@ -32,6 +32,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KamaCake.WebApi.Controllers.AuthController",
+    "Method": "ResfreshToken",
+    "RelativePath": "api/Auth/ResfreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "KamaCake.Application.Features.Commands.AuthCommands.RefreshToken.RefreshTokenCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KamaCake.WebApi.Controllers.CakeController",
     "Method": "CreateCake",
     "RelativePath": "api/Cake",

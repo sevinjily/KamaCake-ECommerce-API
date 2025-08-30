@@ -2,6 +2,8 @@
 using KamaCake.Application.Features.Commands.AuthCommands.Login;
 using KamaCake.Application.Features.Commands.AuthCommands.RefreshToken;
 using KamaCake.Application.Features.Commands.AuthCommands.Register;
+using KamaCake.Application.Features.Commands.AuthCommands.Revoke;
+using KamaCake.Application.Features.Commands.AuthCommands.RevokeAll;
 using KamaCake.Application.Features.Commands.CakeCommands.CreateCake;
 using KamaCake.Application.Features.Commands.CakeCommands.DeleteCake;
 using MediatR;
@@ -45,6 +47,24 @@ namespace KamaCake.WebApi.Controllers
             if (!response.isSuccess) return BadRequest(response.Message);
 
             return StatusCode((int)response.StatusCode, response);
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> Revoke(RevokeCommand model)
+        {
+            var response = await mediator.Send(model);
+            if (!response.isSuccess) return BadRequest(response.Message);
+
+            return StatusCode((int)response.StatusCode);
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> RevokeAll()
+        {
+            var response = await mediator.Send(new RevokeAllCommand());
+            if (!response.isSuccess) return BadRequest(response.Message);
+
+            return StatusCode((int)response.StatusCode);
 
         }
     }

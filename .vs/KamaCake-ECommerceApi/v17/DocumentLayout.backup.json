@@ -392,7 +392,7 @@
               "RelativeDocumentMoniker": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RevokeAll\\RevokeAllCommandHandler.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\.Net-Onion\\KamaCake-ECommerceApi\\src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RevokeAll\\RevokeAllCommandHandler.cs",
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RevokeAll\\RevokeAllCommandHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T15:32:18.732Z",
               "EditorCaption": ""
@@ -407,8 +407,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RevokeAll\\RevokeAllCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:32:13.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T15:32:13.288Z"
             },
             {
               "$type": "Document",
@@ -420,8 +419,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Revoke\\RevokeCommandHandler.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAWwBEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:23:40.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T15:23:40.171Z"
             },
             {
               "$type": "Document",
@@ -433,8 +431,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Revoke\\RevokeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:17:48.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T15:17:48.317Z"
             },
             {
               "$type": "Document",
@@ -446,8 +443,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAewDkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:28:51.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T13:28:51.324Z"
             },
             {
               "$type": "Document",
@@ -459,8 +455,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RevokeValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T15:20:35.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T15:20:35.822Z"
             },
             {
               "$type": "Document",
@@ -472,8 +467,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAuwC4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:12:09.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T17:12:09.049Z"
             },
             {
               "$type": "Document",
@@ -485,8 +479,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:11:54.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T17:11:54.805Z"
             },
             {
               "$type": "Document",
@@ -498,8 +491,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommandHandler.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAwDQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:44:04.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:44:04.848Z"
             },
             {
               "$type": "Document",
@@ -511,8 +503,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\RefreshToken\\RefreshTokenCommandResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:13:33.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T17:13:33.272Z"
             },
             {
               "$type": "Document",
@@ -524,8 +515,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\LoginValidation.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T11:22:57.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T11:22:57.053Z"
             },
             {
               "$type": "Document",
@@ -537,8 +527,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RefreshTokenValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:29:04.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T17:29:04.65Z"
             },
             {
               "$type": "Document",
@@ -550,8 +539,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RefreshTokenDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T17:30:56.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T17:30:56.254Z"
             },
             {
               "$type": "Document",
@@ -563,8 +551,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\AuthValidations\\RegisterValidation.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:44:36.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:44:36.655Z"
             },
             {
               "$type": "Document",
@@ -576,8 +563,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T11:22:00.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T11:22:00.214Z"
             },
             {
               "$type": "Document",
@@ -589,8 +575,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Login\\LoginCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:45:15.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T07:45:15.521Z"
             },
             {
               "$type": "Document",
@@ -602,8 +587,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CakeController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAiwDsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:26:14.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T14:26:14.632Z"
             },
             {
               "$type": "Document",
@@ -615,8 +599,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenService.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAA1wEQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:06:58.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T07:06:58.165Z"
             },
             {
               "$type": "Document",
@@ -628,8 +611,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Tokens\\TokenSettings.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T07:07:09.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T07:07:09.113Z"
             },
             {
               "$type": "Document",
@@ -641,8 +623,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-18T18:11:22.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:11:22.222Z"
             },
             {
               "$type": "Document",
@@ -654,8 +635,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAowEQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:01:03.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T19:01:03.1Z"
             },
             {
               "$type": "Document",
@@ -667,8 +647,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Tokens\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T17:13:59.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T17:13:59.002Z"
             },
             {
               "$type": "Document",
@@ -680,8 +659,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:12:50.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T17:12:50.358Z"
             },
             {
               "$type": "Document",
@@ -693,8 +671,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Login\\LoginCommandRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:45:08.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T07:45:08.983Z"
             },
             {
               "$type": "Document",
@@ -706,8 +683,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Login\\LoginCommandResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:55:54.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T07:55:54.432Z"
             },
             {
               "$type": "Document",
@@ -719,8 +695,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponseWithData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:37:31.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T14:37:31.154Z"
             },
             {
               "$type": "Document",
@@ -732,8 +707,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CakeQueries\\GetAllCake\\GetAllCakeQueryHandler.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwBwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T11:53:05.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T11:53:05.033Z"
             },
             {
               "$type": "Document",
@@ -745,8 +719,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\AuthCommands\\Register\\RegisterCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:43:42.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:43:42.954Z"
             },
             {
               "$type": "Document",
@@ -758,8 +731,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\AuthDTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T15:44:14.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T15:44:14.725Z"
             },
             {
               "$type": "Document",
@@ -771,8 +743,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwBcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T12:42:59.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T12:42:59.172Z"
             },
             {
               "$type": "Document",
@@ -784,8 +755,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Mapping\\GeneralMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:07:25.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T14:07:25.16Z"
             },
             {
               "$type": "Document",
@@ -797,8 +767,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T17:21:33.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T17:21:33.764Z"
             },
             {
               "$type": "Document",
@@ -810,8 +779,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\ServiceRegistration.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:08:44.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:08:44.33Z"
             },
             {
               "$type": "Document",
@@ -823,8 +791,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ServiceResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:15:40.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:15:40.476Z"
             },
             {
               "$type": "Document",
@@ -836,8 +803,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Cake.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:25:28.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:25:28.631Z"
             },
             {
               "$type": "Document",
@@ -849,8 +815,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\GetCakeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:57:28.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:57:28.934Z"
             },
             {
               "$type": "Document",
@@ -862,8 +827,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CreateCakeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T15:08:24.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T15:08:24.633Z"
             },
             {
               "$type": "Document",
@@ -875,8 +839,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:09:51.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:09:51.06Z"
             },
             {
               "$type": "Document",
@@ -888,8 +851,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\ServiceRegistration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T17:22:29.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T17:22:29.117Z"
             },
             {
               "$type": "Document",
@@ -901,8 +863,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\CreateCake\\CreateCakeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:04:07.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T17:04:07.44Z"
             },
             {
               "$type": "Document",
@@ -914,8 +875,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\CreateCake\\CreateCakeCommandHandler.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowEsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:08:13.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T17:08:13.423Z"
             },
             {
               "$type": "Document",
@@ -927,8 +887,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T12:25:09.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T12:25:09.301Z"
             },
             {
               "$type": "Document",
@@ -940,8 +899,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T16:07:41.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T16:07:41.87Z"
             },
             {
               "$type": "Document",
@@ -953,8 +911,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Entities\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:05:57.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T17:05:57.875Z"
             },
             {
               "$type": "Document",
@@ -966,8 +923,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CakeValidations\\CreateCakeDTOValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T16:37:24.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T16:37:24.295Z"
             },
             {
               "$type": "Document",
@@ -979,8 +935,7 @@
               "RelativeToolTip": "src\\WebApi\\KamaCake.WebApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-23T06:56:38.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T06:56:38.375Z"
             },
             {
               "$type": "Document",
@@ -992,8 +947,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:35:08.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:35:08.022Z"
             },
             {
               "$type": "Document",
@@ -1005,8 +959,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250822164158_IdentityDbContextAdded.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwCMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T16:41:58.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T16:41:58.226Z"
             },
             {
               "$type": "Document",
@@ -1018,8 +971,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\KamaCake.Persistence.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-17T11:31:54.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:31:54.271Z"
             },
             {
               "$type": "Document",
@@ -1031,8 +983,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\UserDTO\\CreateUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T13:59:41.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T13:59:41.603Z"
             },
             {
               "$type": "Document",
@@ -1044,8 +995,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAYwDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:33:31.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:33:31.565Z"
             },
             {
               "$type": "Document",
@@ -1057,8 +1007,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\IGenericRepositoryAsync.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:28:09.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:28:09.993Z"
             },
             {
               "$type": "Document",
@@ -1070,8 +1019,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICakeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:27:37.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:27:37.883Z"
             },
             {
               "$type": "Document",
@@ -1083,8 +1031,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Interfaces\\Repository\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:39:33.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:39:33.436Z"
             },
             {
               "$type": "Document",
@@ -1096,8 +1043,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CakeQueries\\GetCakeById\\GetCakeByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:52:25.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:52:25.716Z"
             },
             {
               "$type": "Document",
@@ -1109,8 +1055,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CakeQueries\\GetAllCake\\GetAllCakeQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T11:52:54.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T11:52:54.115Z"
             },
             {
               "$type": "Document",
@@ -1122,8 +1067,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CakeQueries\\GetCakeById\\GetCakeByIdQueryHandler.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:52:42.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:52:42.114Z"
             },
             {
               "$type": "Document",
@@ -1135,8 +1079,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetCategoryById\\GetCategoryByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:30:49.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T12:30:49.389Z"
             },
             {
               "$type": "Document",
@@ -1148,8 +1091,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetCategoryById\\GetCategoryByIdQueryHandler.cs",
               "ViewState": "AgIAABwAAAAAAAAAAADwvzYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:30:49.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T12:30:49.637Z"
             },
             {
               "$type": "Document",
@@ -1161,8 +1103,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\GetCategoryByIdDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:37:44.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T12:37:44.01Z"
             },
             {
               "$type": "Document",
@@ -1174,8 +1115,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\DeleteCake\\DeleteCakeCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:40:43.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:40:43.721Z"
             },
             {
               "$type": "Document",
@@ -1187,8 +1127,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\CakeViewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T15:12:15.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T15:12:15.52Z"
             },
             {
               "$type": "Document",
@@ -1200,8 +1139,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\DeleteCategory\\DeleteCategoryCommandHandler.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:32:44.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:32:44.241Z"
             },
             {
               "$type": "Document",
@@ -1213,8 +1151,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\UpdateCake\\UpdateCakeCommandHandler.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:47:45.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T06:47:45.962Z"
             },
             {
               "$type": "Document",
@@ -1226,8 +1163,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\DeleteCake\\DeleteCakeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:40:34.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T07:40:34.391Z"
             },
             {
               "$type": "Document",
@@ -1239,8 +1175,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\Common\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T15:56:17.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:56:17.506Z"
             },
             {
               "$type": "Document",
@@ -1252,8 +1187,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\CreateCategoryValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:41:36.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:41:36.462Z"
             },
             {
               "$type": "Document",
@@ -1265,8 +1199,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CategoryValidations\\UpdateCategoryValidation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAmwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:56:01.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:56:01.787Z"
             },
             {
               "$type": "Document",
@@ -1278,8 +1211,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\UpdateCategoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:06:15.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:06:15.047Z"
             },
             {
               "$type": "Document",
@@ -1291,8 +1223,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAqwDUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:11:24.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:11:24.094Z"
             },
             {
               "$type": "Document",
@@ -1304,8 +1235,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Validations\\CakeValidations\\UpdateCakeDTOValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:50:19.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T06:50:19.039Z"
             },
             {
               "$type": "Document",
@@ -1317,8 +1247,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CakeDTOs\\UpdateCakeDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T14:05:50.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T14:05:50.603Z"
             },
             {
               "$type": "Document",
@@ -1330,8 +1259,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:58:51.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:58:51.599Z"
             },
             {
               "$type": "Document",
@@ -1343,8 +1271,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Repositories\\CakeRepository.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:33:11.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:33:11.896Z"
             },
             {
               "$type": "Document",
@@ -1356,8 +1283,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CakeCommands\\UpdateCake\\UpdateCakeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T06:47:08.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T06:47:08.913Z"
             },
             {
               "$type": "Document",
@@ -1369,8 +1295,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:10:33.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:10:33.987Z"
             },
             {
               "$type": "Document",
@@ -1382,8 +1307,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetAllCategory\\GetAllCategoryForUser\\GetAllCategoryForUserQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:43:42.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:43:42.557Z"
             },
             {
               "$type": "Document",
@@ -1395,8 +1319,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetAllCategory\\GetAllCategoryForUser\\GetAllCategoryForUserQueryHandler.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAuwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:44:50.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:44:50.594Z"
             },
             {
               "$type": "Document",
@@ -1408,8 +1331,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\GetAllCategoryForUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:55:47.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:55:47.195Z"
             },
             {
               "$type": "Document",
@@ -1421,8 +1343,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetAllCategory\\GetAllCategoryForAdmin\\GetAllCategoryForAdminQueryHandler.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:55:01.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:55:01.549Z"
             },
             {
               "$type": "Document",
@@ -1434,8 +1355,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Queries\\CategoryQueries\\GetAllCategory\\GetAllCategoryForAdmin\\GetAllCategoryForAdminQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:54:43.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:54:43.911Z"
             },
             {
               "$type": "Document",
@@ -1447,8 +1367,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponseWithData.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:38:59.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:38:59.243Z"
             },
             {
               "$type": "Document",
@@ -1460,8 +1379,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommandHandler.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAuwDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:49:25.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:49:25.86Z"
             },
             {
               "$type": "Document",
@@ -1473,8 +1391,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\DeleteCategory\\DeleteCategoryCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T06:32:44.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T06:32:44.002Z"
             },
             {
               "$type": "Document",
@@ -1486,8 +1403,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Features\\Commands\\CategoryCommands\\CreateCategory\\CreateCategoryCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:49:11.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:49:11.727Z"
             },
             {
               "$type": "Document",
@@ -1499,8 +1415,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\DTOs\\CategoryDTO\\CreateCategoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:43:52.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:43:52.079Z"
             },
             {
               "$type": "Document",
@@ -1512,8 +1427,7 @@
               "RelativeToolTip": "src\\Infrastructure\\KamaCake.Persistence\\Migrations\\20250818182318_Init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:23:18.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T18:23:18.683Z"
             },
             {
               "$type": "Document",
@@ -1525,8 +1439,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\KamaCake.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-17T11:26:44.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T11:26:44.167Z"
             },
             {
               "$type": "Document",
@@ -1538,8 +1451,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\SuccessResponses\\SuccessResponseWithData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:34:40.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:34:40.68Z"
             },
             {
               "$type": "Document",
@@ -1551,8 +1463,7 @@
               "RelativeToolTip": "src\\Core\\KamaCake.Application\\Wrappers\\ServiceResponses\\ErrorResponses\\ErrorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:10:02.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:10:02.439Z"
             },
             {
               "$type": "Document",
@@ -1564,8 +1475,7 @@
               "RelativeToolTip": "src\\KamaCake.Domain\\KamaCake.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T15:55:39.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T15:55:39.737Z"
             }
           ]
         },

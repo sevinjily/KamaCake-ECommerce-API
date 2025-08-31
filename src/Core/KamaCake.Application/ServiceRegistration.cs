@@ -1,6 +1,8 @@
 ﻿using FluentValidation;
+using KamaCake.Application.Behaviors;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using System.Globalization;
 using System.Reflection;
 
 namespace KamaCake.Application
@@ -15,6 +17,9 @@ namespace KamaCake.Application
 
             // Bütün validator-ları avtomatik qeyd edir
             services.AddValidatorsFromAssembly(assm);
+            ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("az");
+
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RedisCacheBehavior<,>));
             
 
         }

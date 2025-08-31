@@ -13,4 +13,4 @@ namespace KamaCake.Persistence.Tokens
         public string Secret { get; set; }
         public int TokenValidityInMunitues { get; set; }
     }
-}
+}       

@@ -1,7 +1,10 @@
-﻿using KamaCake.Application.Interfaces.Repository;
+﻿using KamaCake.Application.Behaviors;
+using KamaCake.Application.Interfaces.RedisCahce;
+using KamaCake.Application.Interfaces.Repository;
 using KamaCake.Application.Interfaces.Tokens;
 using KamaCake.Domain.Entities;
 using KamaCake.Persistence.Context;
+using KamaCake.Persistence.RedisCache;
 using KamaCake.Persistence.Repositories;
 using KamaCake.Persistence.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -24,6 +27,8 @@ namespace KamaCake.Persistence
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
             serviceCollection.AddTransient<IUserRepository, UserRepository>();
 
+            serviceCollection.Configure<RedisCacheSettings>(configuration.GetSection("RedisCacheSettings"));
+            serviceCollection.AddTransient<IRedisCacheService, RedisCacheService>();
 
             serviceCollection.AddIdentityCore<User>(opt =>
             {
@@ -62,6 +67,13 @@ namespace KamaCake.Persistence
                 };
             });
 
+                //Microsoft.Extensions.Caching.StackExchangeRedis yukle
+            serviceCollection.AddStackExchangeRedisCache(opt =>
+            {
+                opt.Configuration = configuration["RedisCacheSettings:ConnectionString"];
+                opt.Configuration = configuration["RedisCacheSettings:InstanceName"];
+
+            });
 
         }
     }

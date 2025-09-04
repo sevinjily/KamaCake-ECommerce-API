@@ -270,6 +270,18 @@
         }
       }
     },
+    "/api/Cart/CreateCart": {
+      "post": {
+        "tags": [
+          "Cart"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category/CreateCategory": {
       "post": {
         "tags": [

@@ -8,6 +8,7 @@ using KamaCake.Persistence.RedisCache;
 using KamaCake.Persistence.Repositories;
 using KamaCake.Persistence.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,6 +27,8 @@ namespace KamaCake.Persistence
             serviceCollection.AddTransient<ICakeRepository, CakeRepository>();
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
             serviceCollection.AddTransient<IUserRepository, UserRepository>();
+            serviceCollection.AddTransient<ICartRepository,CartRepository>();
+
 
             serviceCollection.Configure<RedisCacheSettings>(configuration.GetSection("RedisCacheSettings"));
             serviceCollection.AddTransient<IRedisCacheService, RedisCacheService>();
@@ -56,14 +59,26 @@ namespace KamaCake.Persistence
                 opt.SaveToken = true;
                 opt.TokenValidationParameters = new TokenValidationParameters()
                 {
-                    ValidateIssuer = false,
-                    ValidateAudience = false,
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"])),
-                    ValidateLifetime = false,
+                    ValidateLifetime = true, // Prod-da true olmalıdır
                     ValidIssuer = configuration["JWT:Issuer"],
                     ValidAudience = configuration["JWT:Audience"],
-                    ClockSkew = TimeSpan.Zero,
+                    ClockSkew = TimeSpan.FromMinutes(1),// 1 dəqiqə gecikməni kompensasiya edir
+                };
+                opt.Events = new JwtBearerEvents //unauthorize ucun xususi mesaj(401 mesajını fərdiləşdirmək)
+                {
+                    OnChallenge = context =>
+                    {
+                        context.HandleResponse();
+                        context.Response.ContentType = "application/json";
+                        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                        var result = System.Text.Json.JsonSerializer.Serialize(
+                            new { message = "Cart yaratmaq üçün əvvəlcə login olun." });
+                        return context.Response.WriteAsync(result);
+                    }
                 };
             });
 
@@ -71,7 +86,7 @@ namespace KamaCake.Persistence
             serviceCollection.AddStackExchangeRedisCache(opt =>
             {
                 opt.Configuration = configuration["RedisCacheSettings:ConnectionString"];
-                opt.Configuration = configuration["RedisCacheSettings:InstanceName"];
+                opt.InstanceName = configuration["RedisCacheSettings:InstanceName"];
 
             });
 

@@ -4,9 +4,9 @@ namespace KamaCake.Application.Wrappers.ServiceResponses
 {
     public class ServiceResponse
     {
-        public bool isSuccess { get; }    // əməliyyat uğurlu olub-olmadığını göstərir
-        public string Message { get; }
-        public HttpStatusCode StatusCode { get; }
+        public bool isSuccess { get; private set; }    // əməliyyat uğurlu olub-olmadığını göstərir
+        public string Message { get; private set; }
+        public HttpStatusCode StatusCode { get; private set; }
 
         //MESAJSIZ
         public ServiceResponse(bool IsSuccess, HttpStatusCode statusCode)
@@ -22,6 +22,10 @@ namespace KamaCake.Application.Wrappers.ServiceResponses
                 Message = message;
             }
 
+        }
+        public ServiceResponse()
+        {
+            
         }
     }
 }

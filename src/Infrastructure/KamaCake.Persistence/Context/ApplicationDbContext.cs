@@ -12,6 +12,7 @@ namespace KamaCake.Persistence.Context
         public DbSet<Cake> Cakes { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Cart> Carts { get; set; }
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             foreach (var entry in ChangeTracker.Entries<BaseEntity>())

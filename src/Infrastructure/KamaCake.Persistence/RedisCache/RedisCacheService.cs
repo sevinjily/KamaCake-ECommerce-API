@@ -28,8 +28,16 @@ namespace KamaCake.Persistence.RedisCache
 
         public async Task SetAsync<T>(string key, T value, DateTime? expirationTime = null)
         {
-            TimeSpan timeUnitExpiration = expirationTime.Value - DateTime.Now;
-            await database.StringSetAsync(key, JsonConvert.SerializeObject(value),timeUnitExpiration);  
+            TimeSpan? timeUnitExpiration = null;
+
+            if (expirationTime.HasValue)
+                timeUnitExpiration = expirationTime.Value - DateTime.Now;
+
+            await database.StringSetAsync(
+                key,
+                JsonConvert.SerializeObject(value),
+                timeUnitExpiration
+            );
         }
     }
 }

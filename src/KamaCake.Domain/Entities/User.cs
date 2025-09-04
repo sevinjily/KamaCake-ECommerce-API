@@ -9,6 +9,8 @@ namespace KamaCake.Domain.Entities
         public string FullName { get; set; }
         public string? ResfreshToken { get; set; }
         public DateTime? ResfreshTokenExpiryTime { get; set; }
+
+
       
     }
 }

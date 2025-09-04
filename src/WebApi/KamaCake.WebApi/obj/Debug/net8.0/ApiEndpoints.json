@@ -153,6 +153,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KamaCake.WebApi.Controllers.CartController",
+    "Method": "CreateCart",
+    "RelativePath": "api/Cart/CreateCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
     "Method": "CreateCategory",
     "RelativePath": "api/Category/CreateCategory",

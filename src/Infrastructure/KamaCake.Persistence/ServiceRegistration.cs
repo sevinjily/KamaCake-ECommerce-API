@@ -28,6 +28,9 @@ namespace KamaCake.Persistence
             serviceCollection.AddTransient<ICategoryRepository, CategoryRepository>();
             serviceCollection.AddTransient<IUserRepository, UserRepository>();
             serviceCollection.AddTransient<ICartRepository,CartRepository>();
+            serviceCollection.AddTransient<ICartItemRepository, CartItemRepository>();
+
+
 
 
             serviceCollection.Configure<RedisCacheSettings>(configuration.GetSection("RedisCacheSettings"));

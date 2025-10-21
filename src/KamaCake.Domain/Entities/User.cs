@@ -1,4 +1,5 @@
 ﻿using KamaCake.Domain.Common;
+
 using Microsoft.AspNetCore.Identity;
 
 namespace KamaCake.Domain.Entities
@@ -10,7 +11,7 @@ namespace KamaCake.Domain.Entities
         public string? ResfreshToken { get; set; }
         public DateTime? ResfreshTokenExpiryTime { get; set; }
 
+        public Cart? Cart { get; set; }
 
-      
     }
 }

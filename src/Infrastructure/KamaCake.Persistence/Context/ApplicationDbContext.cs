@@ -1,5 +1,6 @@
 ﻿using KamaCake.Domain.Common;
 using KamaCake.Domain.Entities;
+using KamaCake.Domain.Enums;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,28 @@ namespace KamaCake.Persistence.Context
         public DbSet<Category> Categories { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder); // Identity konfiqurasiyası üçün vacib
+
+            // User - Cart 1-to-1 əlaqəsi
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Cart)
+                .WithOne(c => c.User)
+                .HasForeignKey<Cart>(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+
+            modelBuilder.Entity<Cart>()
+                 .HasMany(c => c.CartItems)
+                 .WithOne(ci => ci.Cart)
+                 .HasForeignKey(ci => ci.CartId)
+                 .OnDelete(DeleteBehavior.Cascade);
+                    }
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             foreach (var entry in ChangeTracker.Entries<BaseEntity>())
@@ -31,5 +54,6 @@ namespace KamaCake.Persistence.Context
 
             return base.SaveChangesAsync(cancellationToken);
         }
+
     }
 }

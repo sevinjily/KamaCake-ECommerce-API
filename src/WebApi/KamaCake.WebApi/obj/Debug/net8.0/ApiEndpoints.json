@@ -163,6 +163,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KamaCake.WebApi.Controllers.CartItemController",
+    "Method": "CreateCartItem",
+    "RelativePath": "api/CartItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "KamaCake.Application.Features.Commands.CartItemCommands.CreateCartItemCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KamaCake.WebApi.Controllers.CategoryController",
     "Method": "CreateCategory",
     "RelativePath": "api/Category/CreateCategory",

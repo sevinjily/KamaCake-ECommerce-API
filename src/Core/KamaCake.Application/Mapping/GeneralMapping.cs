@@ -1,28 +1,32 @@
 ﻿using AutoMapper;
 using KamaCake.Application.DTOs.AuthDTOs;
 using KamaCake.Application.DTOs.CakeDTOs;
+using KamaCake.Application.DTOs.CartDTOs.CartItemDTO;
 using KamaCake.Application.DTOs.CategoryDTO;
-using KamaCake.Application.Features.Commands.CartCommands.CreateCart;
 using KamaCake.Domain.Entities;
 
 namespace KamaCake.Application.Mapping
-{
-    public class GeneralMapping:Profile
     {
-        public GeneralMapping() 
+        public class GeneralMapping:Profile
         {
-            CreateMap<Cake, UpdateCakeDTO>().ReverseMap();
-            CreateMap<Cake, CreateCakeDTO>().ReverseMap();
-            CreateMap<Cake, GetCakeDTO>().ReverseMap();
+            public GeneralMapping() 
+            {
+                CreateMap<Cake, UpdateCakeDTO>().ReverseMap();
+                CreateMap<Cake, CreateCakeDTO>().ReverseMap();
+                CreateMap<Cake, GetCakeDTO>().ReverseMap();
 
-            CreateMap<Category, CreateCategoryDTO>().ReverseMap();
-            CreateMap<Category, UpdateCategoryDTO>().ReverseMap();
-            CreateMap<Category,GetAllCategoryForUserDTO>().ReverseMap();
-            CreateMap<Category, GetCategoryByIdDTO>().ReverseMap();
+                CreateMap<Category, CreateCategoryDTO>().ReverseMap();
+                CreateMap<Category, UpdateCategoryDTO>().ReverseMap();
+                CreateMap<Category,GetAllCategoryForUserDTO>().ReverseMap();
+                CreateMap<Category, GetCategoryByIdDTO>().ReverseMap();
 
-            CreateMap<User, RegisterDTO>().ReverseMap();
+                CreateMap<User, RegisterDTO>().ReverseMap();
+                
+                CreateMap<CreateCartItemDTO, CartItem>()
+                .ForMember(dest => dest.CakeId, opt => opt.MapFrom(src => src.CakeId))
+                    .ForMember(dest => dest.Color, opt => opt.MapFrom(src => src.ToString()))
+                    .ReverseMap();
 
-
+            }
         }
     }
-}

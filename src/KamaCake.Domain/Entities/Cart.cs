@@ -6,5 +6,6 @@ namespace KamaCake.Domain.Entities
     {
         public User User { get; set; }
         public Guid UserId { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
     }
 }   

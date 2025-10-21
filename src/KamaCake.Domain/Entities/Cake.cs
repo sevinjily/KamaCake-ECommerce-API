@@ -9,6 +9,7 @@ namespace KamaCake.Domain.Entities
         public decimal Price { get; set; }
         public decimal? DiscountPrice { get; set; }
         public string ImageUrl { get; set; }
+        public bool? IsStock { get; set; }
         public Category Category { get; set; }
         public Guid CategoryId { get; set; }
 

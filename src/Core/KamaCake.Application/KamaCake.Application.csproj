@@ -24,8 +24,4 @@
     <ProjectReference Include="..\..\KamaCake.Domain\KamaCake.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\CartDTOs\" />
-  </ItemGroup>
-
 </Project>

@@ -282,6 +282,37 @@
         }
       }
     },
+    "/api/CartItem": {
+      "post": {
+        "tags": [
+          "CartItem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCartItemCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCartItemCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCartItemCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category/CreateCategory": {
       "post": {
         "tags": [
@@ -425,6 +456,23 @@
   },
   "components": {
     "schemas": {
+      "CakeColor": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "CreateCakeDTO": {
         "type": "object",
         "properties": {
@@ -452,6 +500,36 @@
           "categoryId": {
             "type": "string",
             "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCartItemCommand": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "$ref": "#/components/schemas/CreateCartItemDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCartItemDTO": {
+        "type": "object",
+        "properties": {
+          "cakeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "color": {
+            "$ref": "#/components/schemas/CakeColor"
+          },
+          "size": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -1,8 +1,12 @@
-﻿namespace KamaCake.Domain.Enums
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+
+namespace KamaCake.Domain.Enums
 {
+    [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum  CakeColor
     {
-        None=0,
+        None =0,
         Red=1,
         Green=2,
         Blue=3,

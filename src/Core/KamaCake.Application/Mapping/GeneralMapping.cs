@@ -24,7 +24,7 @@ namespace KamaCake.Application.Mapping
                 
                 CreateMap<CreateCartItemDTO, CartItem>()
                 .ForMember(dest => dest.CakeId, opt => opt.MapFrom(src => src.CakeId))
-                    .ForMember(dest => dest.Color, opt => opt.MapFrom(src => src.ToString()))
+                    .ForMember(dest => dest.Color, opt => opt.MapFrom(src => src.Color.ToString()))
                     .ReverseMap();
 
             }

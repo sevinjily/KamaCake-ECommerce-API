@@ -171,9 +171,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "KamaCake.Application.Features.Commands.CartItemCommands.CreateCartItemCommand",
-        "IsRequired": true
+        "Name": "Model.CakeId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model.Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model.Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model.Size",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

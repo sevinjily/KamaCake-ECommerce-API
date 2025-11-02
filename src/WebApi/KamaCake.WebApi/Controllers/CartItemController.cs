@@ -16,7 +16,7 @@ namespace KamaCake.WebApi.Controllers
         }
         [HttpPost]
         //[Authorize]
-        public async Task<IActionResult> CreateCartItem(CreateCartItemCommand command)
+        public async Task<IActionResult> CreateCartItem([FromForm]CreateCartItemCommand command)
         {
             // İstifadəçi login olub-olmadığını yoxlayırıq
             if (!User.Identity.IsAuthenticated)

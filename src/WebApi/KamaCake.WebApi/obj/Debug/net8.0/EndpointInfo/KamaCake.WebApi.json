@@ -289,19 +289,40 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CreateCartItemCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCartItemCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCartItemCommand"
+                "type": "object",
+                "properties": {
+                  "Model.CakeId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Model.Quantity": {
+                    "type": "integer",
+                    "format": "int32",
+                    "default": 1
+                  },
+                  "Model.Color": {
+                    "$ref": "#/components/schemas/CakeColor"
+                  },
+                  "Model.Size": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Model.CakeId": {
+                  "style": "form"
+                },
+                "Model.Quantity": {
+                  "style": "form"
+                },
+                "Model.Color": {
+                  "style": "form"
+                },
+                "Model.Size": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -458,20 +479,19 @@
     "schemas": {
       "CakeColor": {
         "enum": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
+          "None",
+          "Red",
+          "Green",
+          "Blue",
+          "Purple",
+          "Black",
+          "White",
+          "Yellow",
+          "Orange",
+          "DeepRed",
+          "DeepBlue"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "CreateCakeDTO": {
         "type": "object",
@@ -500,36 +520,6 @@
           "categoryId": {
             "type": "string",
             "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateCartItemCommand": {
-        "type": "object",
-        "properties": {
-          "model": {
-            "$ref": "#/components/schemas/CreateCartItemDTO"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateCartItemDTO": {
-        "type": "object",
-        "properties": {
-          "cakeId": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "color": {
-            "$ref": "#/components/schemas/CakeColor"
-          },
-          "size": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

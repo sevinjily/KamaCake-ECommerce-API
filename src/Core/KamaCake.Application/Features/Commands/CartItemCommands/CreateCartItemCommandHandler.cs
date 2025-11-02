@@ -39,8 +39,7 @@ namespace KamaCake.Application.Features.Commands.CartItemCommands
                 return new ServiceResponse(false,System.Net.HttpStatusCode.NotFound,"Bu məhsul yoxdur və ya tükənib!");
 
             //ISTIFADECININ SEBETI YOXDURSA SEBET YARATSIN
-            //var existCart = await cartRepo.GetByUserIdAsync(request.Model.UserId);
-
+      
             var user = httpContextAccessor.HttpContext?.User;
             if (user == null || !user.Identity.IsAuthenticated)
                 throw new UnauthorizedAccessException();
@@ -50,15 +49,27 @@ namespace KamaCake.Application.Features.Commands.CartItemCommands
             if (string.IsNullOrEmpty(userIdClaim))
                 throw new UnauthorizedAccessException();
 
+            //Sebetinin olub-olmadigini yoxlayiriq.
             var existCart = await cartRepo.GetByUserIdAsync(Guid.Parse(userIdClaim));
 
+            //Eger sebeti yoxdursa yaradiriq
             if (existCart==null)
+            {
+
                 existCart = new Cart { UserId = Guid.Parse(userIdClaim) };
             await cartRepo.CreateAsync(existCart);
+            }
 
+            //Sebetde eyni mehsul varsa sayini artirsin
+            var existItem = await cartItemRepo.GetByIdAsync(request.Model.CakeId);
 
-
+            if(existItem!=null)
+            {
+                existItem.Quantity += 1;
+            }
+            //sebeti varsa cartitem i sebete elave edirik
             var cartItemEntity = mapper.Map<CartItem>(request.Model);
+
             cartItemEntity.CartId = existCart.Id;
 
             await cartItemRepo.CreateAsync(cartItemEntity);

@@ -13,10 +13,6 @@ namespace KamaCake.Application.Features.Commands.CartItemCommands
         }
 
 
-        //public CreateCartItemCommand(Guid userId)
-        //{
-        //    Model.UserId = userId;
-          
-        //}
+      
     }
 }

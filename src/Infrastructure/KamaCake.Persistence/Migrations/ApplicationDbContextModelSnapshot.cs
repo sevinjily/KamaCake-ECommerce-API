@@ -151,6 +151,33 @@ namespace KamaCake.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("KamaCake.Domain.Entities.Favorite", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Favorites");
+                });
+
             modelBuilder.Entity("KamaCake.Domain.Entities.Role", b =>
                 {
                     b.Property<Guid>("Id")
@@ -399,6 +426,25 @@ namespace KamaCake.Persistence.Migrations
                     b.Navigation("Cart");
                 });
 
+            modelBuilder.Entity("KamaCake.Domain.Entities.Favorite", b =>
+                {
+                    b.HasOne("KamaCake.Domain.Entities.Cake", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KamaCake.Domain.Entities.User", "User")
+                        .WithMany("Favourites")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
                     b.HasOne("KamaCake.Domain.Entities.Role", null)
@@ -458,6 +504,8 @@ namespace KamaCake.Persistence.Migrations
             modelBuilder.Entity("KamaCake.Domain.Entities.User", b =>
                 {
                     b.Navigation("Cart");
+
+                    b.Navigation("Favourites");
                 });
 #pragma warning restore 612, 618
         }

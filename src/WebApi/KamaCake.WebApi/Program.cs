@@ -1,4 +1,5 @@
 using KamaCake.Application;
+using KamaCake.Application.Exceptions;
 using KamaCake.Persistence;
 using Microsoft.OpenApi.Models;
 ;
@@ -54,6 +55,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//custom exception middleware
+app.ConfigureExceptionHandlingMiddleware();
 
 app.UseHttpsRedirection();
 

@@ -170,3 +170,6 @@ C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebAp
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\Bogus.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\microsoft.identitymodel.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\SendGrid.dll
+C:\Users\Asus\Desktop\.Net-Onion\KamaCake-ECommerceApi\src\WebApi\KamaCake.WebApi\bin\Debug\net8.0\StarkbankEcdsa.dll

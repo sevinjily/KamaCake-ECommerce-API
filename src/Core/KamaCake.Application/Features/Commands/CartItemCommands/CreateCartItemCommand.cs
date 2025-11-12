@@ -6,6 +6,7 @@ namespace KamaCake.Application.Features.Commands.CartItemCommands
 {
     public class CreateCartItemCommand:IRequest<ServiceResponse>
     {
+        //todo DeleteCartItem,Update,Get
         public CreateCartItemDTO Model { get; set; }
         public CreateCartItemCommand(CreateCartItemDTO model)
         {

@@ -12,6 +12,7 @@ namespace KamaCake.Domain.Entities
         public DateTime? ResfreshTokenExpiryTime { get; set; }
 
         public Cart? Cart { get; set; }
+        public List<Favorite> Favourites { get; set; }
 
     }
 }

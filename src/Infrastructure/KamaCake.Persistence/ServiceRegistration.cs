@@ -29,6 +29,7 @@ namespace KamaCake.Persistence
             serviceCollection.AddTransient<IUserRepository, UserRepository>();
             serviceCollection.AddTransient<ICartRepository,CartRepository>();
             serviceCollection.AddTransient<ICartItemRepository, CartItemRepository>();
+            serviceCollection.AddTransient<IFavoriteRepository, FavoriteRepository>();  
 
 
 

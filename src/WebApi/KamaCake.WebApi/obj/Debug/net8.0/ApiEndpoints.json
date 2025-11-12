@@ -281,5 +281,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KamaCake.WebApi.Controllers.FavoriteController",
+    "Method": "CreateFavoriteProduct",
+    "RelativePath": "api/Favorite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "KamaCake.Application.Features.Commands.FavoriteCommands.CreateFavorite.CreateFavoriteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

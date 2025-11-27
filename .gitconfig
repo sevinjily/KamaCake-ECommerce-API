@@ -1,0 +1,7 @@
+[user]
+	name = svncmsva
+	email = sevincmusaeva01@gmail.com
+[safe]
+	directory = C:/Users/Asus
+[core]
+	autocrlf = false

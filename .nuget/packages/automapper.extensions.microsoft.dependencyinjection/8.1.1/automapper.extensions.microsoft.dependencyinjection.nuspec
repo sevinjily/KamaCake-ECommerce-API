@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>AutoMapper.Extensions.Microsoft.DependencyInjection</id>
+    <version>8.1.1</version>
+    <authors>Jimmy Bogard</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://automapper.org/</projectUrl>
+    <description>AutoMapper extensions for ASP.NET Core</description>
+    <copyright>Copyright Jimmy Bogard</copyright>
+    <repository type="git" url="https://github.com/AutoMapper/AutoMapper.Extensions.Microsoft.DependencyInjection" commit="ef79170a79222815095b482e708912f6f0726b3e" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="AutoMapper" version="[10.1.1, 11.0.0)" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="3.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

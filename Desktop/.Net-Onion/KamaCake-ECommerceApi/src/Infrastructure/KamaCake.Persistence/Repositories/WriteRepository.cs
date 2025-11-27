@@ -1,0 +1,57 @@
+﻿
+using KamaCake.Application.Interfaces.Repositories;
+using KamaCake.Domain.Common;
+using Microsoft.EntityFrameworkCore;
+
+namespace KamaCake.Persistence.Repositories
+{
+    public class WriteRepository<T> : IWriteRepository<T> where T : class, IEntityBase, new()
+    {
+        private readonly DbContext context;
+
+        public WriteRepository(DbContext context)
+        {
+            this.context = context;
+        }
+
+        private DbSet<T> Table { get => context.Set<T>(); }
+
+        public async Task AddAsync(T entity)
+        {
+            await Table.AddAsync(entity);
+        }
+
+        public async Task AddRangeAsync(IList<T> entities)
+        {
+            await Table.AddRangeAsync(entities);
+
+        }
+        public async Task<T> UpdateAsync(T entity) //Update asinxron heyata kecmir ona gore ozumuz yazacayiq asinxron islemesini
+        {
+            await Task.Run(() => Table.Update(entity));
+            return entity;
+        }
+
+        public async Task HardDeleteAsync(T entity)
+        {
+            await Task.Run(()=>Table.Remove(entity));
+        }
+
+        public async Task HardDeleteRangeAsync(IList<T> entity)
+        {
+            await Task.Run(() => Table.RemoveRange(entity));
+        }
+        public async Task SoftDeleteAsync(T entity)
+        {
+            await Task.Run(() =>
+            {
+                //entity.IsDeleted = true;
+                //entity.DeletedDate = DateTime.UtcNow;
+                Table.Update(entity);
+            });
+
+        }
+
+
+    }
+}

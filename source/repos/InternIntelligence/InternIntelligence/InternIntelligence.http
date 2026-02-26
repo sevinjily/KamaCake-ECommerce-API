@@ -1,6 +1,0 @@
-@InternIntelligence_HostAddress = http://localhost:5124
-
-GET {{InternIntelligence_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

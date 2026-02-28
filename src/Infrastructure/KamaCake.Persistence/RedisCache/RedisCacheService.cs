@@ -39,5 +39,10 @@ namespace KamaCake.Persistence.RedisCache
                 timeUnitExpiration
             );
         }
+        
+        //public async Task RemoveAsync(string key)
+        //{
+        //    await database.KeyDeleteAsync(key);
+        //}
     }
 }

@@ -4,6 +4,7 @@ using KamaCake.Application.Features.Commands.CakeCommands.DeleteCake;
 using KamaCake.Application.Features.Commands.CakeCommands.UpdateCake;
 using KamaCake.Application.Features.Queries.CakeQueries.GetAllCake;
 using KamaCake.Application.Features.Queries.CakeQueries.GetCakeById;
+using KamaCake.Application.Interfaces.RedisCahce;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,11 +15,11 @@ namespace KamaCake.WebApi.Controllers
     public class CakeController : ControllerBase
     {
         private readonly IMediator mediator;
-
         public CakeController(IMediator mediator)
         {
             this.mediator = mediator;
         }
+    
         [HttpPost]
         public async Task<IActionResult> CreateCake([FromBody] CreateCakeDTO model)
         {
